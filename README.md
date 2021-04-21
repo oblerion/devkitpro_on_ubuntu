@@ -1,3 +1,3 @@
-# fastinstall-devkitpro
-#
-# is script easly install devkitpro on ubuntu
+# FastInstallLinux-devkitpro
+is script easly install / setup devkitpro on ubuntu
+i just make script 
