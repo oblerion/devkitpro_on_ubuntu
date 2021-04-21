@@ -9,7 +9,7 @@ c2=0
 if [ -d "/opt/devkitpro" ] then;
     echo devkitpro is installed
 else
-while [$c != 1 ] && [$c != 2] && [$c != 0];do
+while [$c != 1 ] && [$c != 2];do
     echo you use 1)amd64 or 2)arm64 arch
     read c
 done;
