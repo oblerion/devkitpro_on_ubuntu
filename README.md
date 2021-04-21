@@ -1,3 +1,2 @@
 # FastInstallLinux-devkitpro
-is script easly install / setup devkitpro on ubuntu
-i just make script 
+##is script easly install / setup devkitpro on ubuntu, i just make this script 
