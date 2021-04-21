@@ -22,19 +22,64 @@ if [$c == 2];then
     sudo dpkg -i devkitpro-pacman.arm64.deb
 fi;
 fi;
-while [$c2 != 1] && [$c2 != 2] && [$c2 != 0];do
-    echo wath dev do you want?
+while [$c2 < -1] || [$c2 > 8];do
+    echo what dev do you want?
     echo put 0 to exit
     echo 1)gba
     echo 2)nds/ndsi
+    echo 3)3ds
+    echo 4)gamecube
+    echo 5)wii
+    echo 6)wiiu
+    echo 7)switch
+    echo 8)gp32
     read c2
 done
 if [$c2 == 1];then
     sudo dkp-pacman -S gba-dev
     echo for exemples look at /opt/devkitpro/examples/gba
+    export DEVKITPRO=/opt/devkitpro/
+    export DEVKITARM=/opt/devkitpro/devkitARM
 fi
 if [$c2 == 2];then
     sudo dkp-pacman -S nds-dev
     echo for exemples look at /opt/devkitpro/examples/nds
+    export DEVKITPRO=/opt/devkitpro/
+    export DEVKITARM=/opt/devkitpro/devkitARM    
 fi
-
+if [$c2 == 3];then
+    sudo dkp-pacman -S 3ds-dev
+    echo for exemples look at /opt/devkitpro/examples/3ds
+    export DEVKITPRO=/opt/devkitpro/
+    export DEVKITARM=/opt/devkitpro/devkitARM
+fi
+if [$c2 == 4];then
+    sudo dkp-pacman -S gamecube-dev
+    echo for exemples look at /opt/devkitpro/examples/gamecube
+    export DEVKITPRO=/opt/devkitpro/
+    export DEVKITARM=/opt/devkitpro/devkitARM
+fi
+if [$c2 == 5];then
+    sudo dkp-pacman -S wii-dev
+    echo for exemples look at /opt/devkitpro/examples/wii
+    export DEVKITPRO=/opt/devkitpro/
+    export DEVKITARM=/opt/devkitpro/devkitARM
+fi
+if [$c2 == 6];then
+    sudo dkp-pacman -S wiiu-dev
+    echo for exemples look at /opt/devkitpro/examples/wiiu
+    export DEVKITPRO=/opt/devkitpro/
+    export DEVKITARM=/opt/devkitpro/devkitARM
+fi
+if [$c2 == 7];then
+    sudo dkp-pacman -S switch-dev
+    echo for exemples look at /opt/devkitpro/examples/switch
+    export DEVKITPRO=/opt/devkitpro/
+    export DEVKITARM=/opt/devkitpro/devkitARM
+fi
+if [$c2 == 8];then
+    sudo dkp-pacman -S gp32-dev
+    echo for exemples look at /opt/devkitpro/examples/gp32
+    export DEVKITPRO=/opt/devkitpro/
+    export DEVKITARM=/opt/devkitpro/devkitARM
+fi
