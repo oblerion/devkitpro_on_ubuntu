@@ -1,6 +1,6 @@
 install devkitpro on ubuntu
 ===========================
-is script easly install / setup devkitpro on ubuntu , i only make this script . it only make for v1.0.2 of devkitpro
+this script for easy install / setup devkitpro on ubuntu , i only make this script . it only make for v1.0.2 of devkitpro
 ## how use it
 ```
 sudo chmod +x script.bash
