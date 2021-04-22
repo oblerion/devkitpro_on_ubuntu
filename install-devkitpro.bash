@@ -38,7 +38,7 @@ while [[ $c2 -lt 0 || $c2 -gt 8 ]];do
 done
 if [ $c2 -gt 0 ] && [ $c2 -lt 9 ];then 
     echo ">> just press enter for install";
-    export DEVKITPRO=/opt/devkitpro/
+    export DEVKITPRO=/opt/devkitpro
     export DEVKITARM=/opt/devkitpro/devkitARM
 fi
 if [ $c2 -eq 1 ];then
