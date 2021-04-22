@@ -36,52 +36,40 @@ while [[ $c2 -lt 0 || $c2 -gt 8 ]];do
     echo "8)gp32"
     read c2
 done
-if [ $c2 -gt 0 ] && [ $c2 -lt 9 ];then echo ">> just press enter for install";fi
-if [ $c2 -eq 1 ];then
-    sudo dkp-pacman -S gba-dev
-    echo for examples look at /opt/devkitpro/examples/gba
+if [ $c2 -gt 0 ] && [ $c2 -lt 9 ];then 
+    echo ">> just press enter for install";
     export DEVKITPRO=/opt/devkitpro/
     export DEVKITARM=/opt/devkitpro/devkitARM
 fi
+if [ $c2 -eq 1 ];then
+    sudo dkp-pacman -S gba-dev
+    echo for examples look at /opt/devkitpro/examples/gba
+fi
 if [ $c2 -eq 2 ];then
     sudo dkp-pacman -S nds-dev
-    echo for examples look at /opt/devkitpro/examples/nds
-    export DEVKITPRO=/opt/devkitpro/
-    export DEVKITARM=/opt/devkitpro/devkitARM    
+    echo for examples look at /opt/devkitpro/examples/nds  
 fi
 if [ $c2 -eq 3 ];then
     sudo dkp-pacman -S 3ds-dev
     echo for examples look at /opt/devkitpro/examples/3ds
-    export DEVKITPRO=/opt/devkitpro/
-    export DEVKITARM=/opt/devkitpro/devkitARM
 fi
 if [ $c2 -eq 4 ];then
     sudo dkp-pacman -S gamecube-dev
     echo for examples look at /opt/devkitpro/examples/gamecube
-    export DEVKITPRO=/opt/devkitpro/
-    export DEVKITARM=/opt/devkitpro/devkitARM
 fi
 if [ $c2 -eq 5 ];then
     sudo dkp-pacman -S wii-dev
     echo for examples look at /opt/devkitpro/examples/wii
-    export DEVKITPRO=/opt/devkitpro/
-    export DEVKITARM=/opt/devkitpro/devkitARM
 fi
 if [ $c2 -eq 6 ];then
     sudo dkp-pacman -S wiiu-dev
     echo for examples look at /opt/devkitpro/examples/wiiu
-    export DEVKITPRO=/opt/devkitpro/
-    export DEVKITARM=/opt/devkitpro/devkitARM
 fi
 if [ $c2 -eq 7 ];then
     sudo dkp-pacman -S switch-dev
     echo for examples look at /opt/devkitpro/examples/switch
-    export DEVKITPRO=/opt/devkitpro/
-    export DEVKITARM=/opt/devkitpro/devkitARM
 fi
 if [ $c2 -eq 8 ];then
     sudo dkp-pacman -S gp32-dev
     echo for examples look at /opt/devkitpro/examples/gp32
-    export DEVKITPRO=/opt/devkitpro/
-    export DEVKITARM=/opt/devkitpro/devkitARM
 fi
