@@ -3,6 +3,7 @@
 echo ---------------------------
 echo fast install devkitpro
 echo ---------------------------
+# version devkitpro
 version="v1.0.2" 
 c=3
 c2=10
