@@ -24,3 +24,8 @@ what dev do you want?
 8)gp32
 ```
 press 1 -> 8, 0 for exit
+```
+do you want install other dev? 1 yes / 0 no
+```
+1 -> return at past screen<br>
+0 -> quit
