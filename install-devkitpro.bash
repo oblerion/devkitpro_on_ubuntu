@@ -1,5 +1,5 @@
 #! /bin/bash
-# script ver b0.2
+# script ver b0.3
 echo ----------------------------
 echo fast install devkitpro BEGIN
 echo ----------------------------
