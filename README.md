@@ -27,7 +27,8 @@ what dev do you want?
 7)switch
 8)gp32
 ```
-press 1 -> 8, 0 for exit
+press 1 -> 8, 0 for exit<br>
+after press enter again (default install) 
 ```
 do you want install other dev? 1 yes / 0 no
 ```
