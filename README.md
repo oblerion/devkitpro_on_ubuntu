@@ -1,12 +1,11 @@
-install devkitpro on ubuntu
-===========================
+# !! new pacman install of devkitpro not working !!
+# this script not work on this time
 this script for easy install / setup [devkitpro](https://devkitpro.org/) on ubuntu , i only make this script . 
 ## how use it
 ```
 sudo chmod +x script.bash
 ./script.bash
 ```
-- work only one time, reinstall can't work ...
 ## when script run
 
 
