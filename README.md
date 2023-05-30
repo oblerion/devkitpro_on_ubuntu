@@ -1,5 +1,3 @@
-# !! new pacman install of devkitpro not working !!
-# this script not work on this time
 this script for easy install / setup [devkitpro](https://devkitpro.org/) on ubuntu , i only make this script . 
 ## how use it
 ```
